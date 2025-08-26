@@ -6,7 +6,7 @@
 :root {
   /* Updated to darker theme with black, grey, and darkest maroon */
   --background: oklch(28.908% 0.00003 271.152); /* Deep black background */
-  --foreground: oklch(0.95 0 0); /* Off-white text */
+  --foreground: oklch(6.086% 0.02498 29.223); /* Off-white text */
   --card: oklch(37.909% 0.00004 271.152); /* Very dark grey cards */
   --card-foreground: oklch(0.95 0 0); /* Off-white card text */
   --popover: oklch(0.06 0 0); /* Very dark grey popovers */
