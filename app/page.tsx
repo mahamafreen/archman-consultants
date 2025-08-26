@@ -18,9 +18,7 @@ export default function Home() {
         <HeroSection />
       </div>
 
-      <div id="about">
-        <AboutSection />
-      </div>
+      
 
       <div id="services">
         <ServicesSection />
@@ -28,6 +26,10 @@ export default function Home() {
 
       <div id="projects">
         <ProjectsSection />
+      </div>
+
+      <div id="about">
+        <AboutSection />
       </div>
 
       <div id="contact">
