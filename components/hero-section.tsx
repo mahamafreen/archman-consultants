@@ -8,11 +8,11 @@ export function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const heroImages = [
-    "/modern-architectural-building-exterior-with-glass-.png",
-    "/luxury-residential-interior-design-with-modern-fur.png",
-    "/urban-planning-aerial-view-of-modern-city-developm.png",
-    "/construction-site-with-architectural-blueprints-an.png",
-    "/modern-office-building-interior-with-sleek-design.png",
+    "/oslo-heights.jfif",
+    "/rabi-centre.png",
+    "/hamdan.jpg",
+    "/gujjarkhan.jpg",
+    "/crown-vista.jpg",
   ]
 
   useEffect(() => {
@@ -64,15 +64,27 @@ export function HeroSection() {
           </p>
 
           <div
-            className={`flex flex-col sm:flex-row gap-4 justify-center transition-all duration-1000 delay-300 ${isVisible ? "slide-up" : "opacity-0 translate-y-8"}`}
-          >
-            <Button size="lg" className="hover-lift text-lg px-8 py-6">
-              Explore Our Work
-            </Button>
-            <Button variant="outline" size="lg" className="hover-lift text-lg px-8 py-6 bg-transparent">
-              Get In Touch
-            </Button>
-          </div>
+  className={`flex flex-col sm:flex-row gap-4 justify-center transition-all duration-1000 delay-300 ${
+    isVisible ? "slide-up" : "opacity-0 translate-y-8"
+  }`}
+>
+  <a href="#projects">
+    <Button size="lg" className="hover-lift text-lg px-8 py-6">
+      Explore Our Work
+    </Button>
+  </a>
+
+  <a href="#contact">
+    <Button
+      variant="outline"
+      size="lg"
+      className="hover-lift text-lg px-8 py-6 bg-transparent"
+    >
+      Get In Touch
+    </Button>
+  </a>
+</div>
+
         </div>
       </div>
 

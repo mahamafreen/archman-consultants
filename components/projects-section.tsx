@@ -10,7 +10,7 @@ const projects = [
     type: "Mixed-Use High-Rise",
     description:
       "12-storey multipurpose development combining apartments with commercial frontage. Emphasis on vertical mobility, parking, safety systems, and proximity to Islamabad International Airport.",
-    image: "/modern-architectural-building-exterior-with-glass-.png",
+    image: "/oslo-heights.jfif",
   },
   {
     title: "Rabi Center 1",
@@ -18,7 +18,7 @@ const projects = [
     type: "Retail / Mixed-Use",
     description:
       "Retail-led tower with shops at lower levels and apartments above. High footfall catchment; security, elevators, backup power, and active tenancy.",
-    image: "/luxury-residential-interior-design-with-modern-fur.png",
+    image: "/rabi-centre.png",
   },
   {
     title: "Hamdan Heights",
@@ -26,23 +26,16 @@ const projects = [
     type: "Mixed-Use Mid-Rise",
     description:
       "Residential and commercial floors with basement parking and high-speed lifts. Public listings credit Archman Consultants with design; efficient cores and circulation.",
-    image: "/urban-planning-aerial-view-of-modern-city-developm.png",
+    image: "/hamdan.jpg",
   },
-  {
-    title: "Suzuki Muzaffarabad Motors",
-    location: "Ambore, Muzaffarabad",
-    type: "Automotive Dealership, 7S",
-    description:
-      "Authorized Pak Suzuki facility integrating showroom, service, spare parts, and body/repair — planned around customer access and service throughput.",
-    image: "/construction-site-with-architectural-blueprints-an.png",
-  },
+ 
   {
     title: "Suzuki Gujarkhan Motors",
     location: "GT Road, Gujar Khan",
     type: "Automotive Dealership, 3S",
     description:
       "Sales, service, and spares facility on a regional artery; brand-compliant façade and customer-first layout.",
-    image: "/modern-office-building-interior-with-sleek-design.png",
+    image: "/gujjarkhan.jpg",
   },
   {
     title: "Crown Vista",
@@ -50,7 +43,7 @@ const projects = [
     type: "Apartments over Commercial",
     description:
       "Mixed-use development with apartments above retail; daylight-oriented layouts, balconies, and independent vertical circulation.",
-    image: "/modern-architectural-building-exterior-with-glass-.png",
+    image: "/crown-vista.jpg",
   },
   {
     title: "Qazi Mall",
@@ -58,16 +51,9 @@ const projects = [
     type: "Mall + Apartments",
     description:
       "Community-scale mall with retail on lower floors and 1–3 bed apartments above; designed for family-friendly amenities and easy access.",
-    image: "/luxury-residential-interior-design-with-modern-fur.png",
+    image: "/qazi-mall.jpg",
   },
-  {
-    title: "North Hills",
-    location: "Lower Jhika Gali Road, Murree",
-    type: "Residential Apartments",
-    description:
-      "Mountain-view apartment residences with shared amenities (elevators, security, parking, power backup) and terrace-oriented units.",
-    image: "/urban-planning-aerial-view-of-modern-city-developm.png",
-  },
+  
 ]
 
 export function ProjectsSection() {
